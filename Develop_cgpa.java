@@ -19,7 +19,7 @@ public class Develop_cgpa {
             System.out.print("Enter marks for subject " + i + ": ");
             double marks = scanner.nextDouble();
 
-            // Validate marks
+            
             if (marks < 0 || marks > 100) {
                 System.out.println("Invalid marks. Marks should be between 0 and 100.");
                 return;
