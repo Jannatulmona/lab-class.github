@@ -20,9 +20,7 @@ public class Develop_cgpa {
             double marks = scanner.nextDouble();
 
             
-            if (marks < 0 || marks > 100) {
-                System.out.println("Invalid marks. Marks should be between 0 and 100.");
-                return;
+          
             }
 
             totalMarks += marks;
