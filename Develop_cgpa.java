@@ -9,9 +9,7 @@ public class Develop_cgpa {
                System.out.print("Enter the number of subjects: ");
         int numSubjects = scanner.nextInt();
 
-               if (numSubjects <= 0) {
-            System.out.println("Invalid number of subjects. Exiting program.");
-            return;
+              
         }
 
                double totalMarks = 0;
